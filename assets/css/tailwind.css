@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@theme{
+    --color-primary: #fff; 
+    --color-secondary: #474a5f;
+    --color-background-gray: #0b0809;
+    --icon-size: 25px;
+    --card-font-size: 15px;
+    --color-background: #2C3539;
+
+}
+
+
+@media(height: 90vh) {
+    ::v-deep(.customized-timeline) {
+        .p-timeline-event:nth-child(even) {
+            flex-direction: column;
+        }
+        .p-timeline-event-content {
+            justify-content: end;
+        }
+    }
+}

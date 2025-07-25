@@ -1,0 +1,46 @@
+
+
+:root {
+    --color-primary: #fff; 
+    --color-secondary: #474a5f;
+    --icon-size: 25px;
+    --foreground: oklch(0.141 0.005 285.823);
+    --muted: oklch(0.274 0.006 286.033);
+    --shiki-default-bg: #000;
+    --color-background: #2C3539;
+
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #fff; 
+        --color-background: #2C3539;
+    }
+   
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-primary: #000; 
+        --color-background: #fff;
+    }
+   
+}
+	
+
+body { 
+    background-color: var(--color-background);
+    color: white;
+    margin: 0;
+font-family: 'Roboto';
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+  
+
+h1 {
+    color: var(--color-primary);
+}
