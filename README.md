@@ -1,5 +1,6 @@
 # Porfolio website created using nuxt and deployed on nuxt-hub
-
+## Status
+Project now taken down for refurbishing
 ## Portfolio 
 
 Simple presentation of my journey as a developer built using vue components and tailwind for styling
