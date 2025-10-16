@@ -1,12 +1,13 @@
 # Porfolio website created using nuxt and deployed on nuxt-hub
-
+## Status
+Project now taken down for refurbishing
 ## Portfolio 
 
 Simple presentation of my journey as a developer built using vue components and tailwind for styling
 
 ## Blog
 
-Built using the [nuxt.content](https://content.nuxt.com/) package to parse markdown files in an object like structure and [shiki](https://shiki.style/)for language specific code highlighting
+Built using the [nuxt.content](https://content.nuxt.com/) package to parse markdown files in an object like structure and [shiki](https://shiki.style/) for language specific code highlighting
 ## Setup
 
 Make sure to install dependencies:
