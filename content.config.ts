@@ -10,6 +10,17 @@ export default defineContentConfig({
         date: z.date(),
         title: z.string(),
       })
+    }),
+    projects: defineCollection({
+      type: 'page',
+      source: 'projects/**/*.md',
+      schema: z.object({
+        title: z.string(),
+        description: z.string(),
+        languages: z.array(z.string()),
+        languageColors: z.array(z.string()),
+      })
     })
+
   }
 })

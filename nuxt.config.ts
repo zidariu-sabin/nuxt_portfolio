@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: ['@nuxt/eslint', '@nuxt/icon', '@nuxt/ui', // '@nuxtjs/color-mode'
-  '@nuxtjs/tailwindcss', 'motion-v/nuxt', '@nuxtjs/mdc', '@nuxt/content', '@nuxthub/core'],
+  '@nuxtjs/tailwindcss', 'motion-v/nuxt', '@nuxtjs/mdc', '@nuxt/content', //'@nuxthub/core'
+  ],
   colorMode:{
     classSuffix: ' '
   },

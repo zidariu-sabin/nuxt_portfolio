@@ -9,7 +9,7 @@ function formatDateOnly(isoString: string) {
 </script>
 
 <template>
-  <div class="bg-linear-to-b from-[var(--color-background)] to-slate-50 h-[100vh] px-[20px]">
+  <div class="bg-linear-to-b from-[var(--color-background)] to-slate-50 h-[85vh] px-[20px] flex flex-col self-center w-[65ch]">
     <h1>Posts</h1> 
     <ul class="flex flex-col gap-10">
       <li v-for="blog in blogs" :key="blog.title" class="flex flex-row justify-between">

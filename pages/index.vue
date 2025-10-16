@@ -75,7 +75,7 @@ const scrollContainer = ref<HTMLDivElement | null>(null);
     
 </script>
 <template>
-    <main class="flex flex-col items-center h-[290vh]  text-start overflow-x-visible bg-linear-to-b from-[var(--color-background)] to-slate-50 relative">
+    <main class="flex flex-col self-center items-center h-[290vh] w-[85ch] text-start overflow-x-visible bg-linear-to-b from-[var(--color-background)] to-slate-50 relative">
       <div v-if="toggleCareerCardDetails" class="h-[100%] w-[100%] bg-[var(--color-background)] opacity-[70%] absolute z-5"/>
       <div class="h-[90vh] justify-center items-center flex flex-col gap-2 mx-auto section">
         <div class="h-[200px] w-[200px] border-[2px] rounded-full select-none" >

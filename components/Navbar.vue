@@ -33,7 +33,7 @@ const tooltipShow = ref(false);
       <option value="dark" @click="setColorTheme('dark')">Dark</option>
     </select>
   </Icon> -->
-
+    <div>
     <a href="/blog">
     <UIcon 
       title="Blog"  
@@ -42,6 +42,15 @@ const tooltipShow = ref(false);
     
     </UIcon>
     </a>
+    <a href="/portfolio">
+    <UIcon 
+      title="Portfolio"  
+      name="heroicons:command-line-16-solid" 
+      class="text-[2rem]">
+    
+    </UIcon>
+    </a>
+    </div>
   </div>
 </template>
 
