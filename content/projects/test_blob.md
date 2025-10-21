@@ -2,7 +2,8 @@
 title: nuxt_portfolio
 description: 'A nuxt portfolio and blog app with markdown parsing and code highlighting built using nuxt. This project is also deployed on nuxt hub : https://nuxt-portfolio-zidariu-sabin.nuxt.dev/'
 languages: [ Vue, CSS, TypeScript, JavaScript]
-languageColors: [ \#41b883, \#663399, \#3178c6, \#f1e05a]
+languageColors: [ '#41b883', '#663399', '#3178c6', '#f1e05a']
+languageSizes: [ 85.2, 7.6, 6.4, 0.8]
 ---
 # GoWorkoutTracker
 ### Description
