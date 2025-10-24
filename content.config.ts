@@ -7,13 +7,16 @@ export const blogSchema = z.object({
 })
 export type Blog = z.infer<typeof blogSchema>
 
+const lannguageSchema = z.object({
+  name: z.string(),
+  color: z.string(),
+  size: z.number(),
+})
 
 export const projectSchema = z.object({
   title: z.string(),
   description: z.string(),
-  languages: z.array(z.string()),
-  languageColors: z.array(z.string()),
-  languageSizes: z.array(z.number()),
+  languages: z.array(lannguageSchema),
 })
 
 export type Project = z.infer<typeof projectSchema>

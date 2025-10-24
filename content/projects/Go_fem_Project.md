@@ -1,17 +1,21 @@
 ---
-title: nuxt_portfolio
-description: 'A nuxt portfolio and blog app with markdown parsing and code highlighting built using nuxt. This project is also deployed on nuxt hub : https://nuxt-portfolio-zidariu-sabin.nuxt.dev/'
-languages: [ Vue, CSS, TypeScript, JavaScript]
-languageColors: [ '#41b883', '#663399', '#3178c6', '#f1e05a']
-languageSizes: [ 85.2, 7.6, 6.4, 0.8]
+title: Go_fem_Project
+description: "Golang project resembling the backend component of a workout tracker following the \"Complete Go for Professional Developers\" course on FrontendMasters "
+url: https://github.com/zidariu-sabin/Go_fem_Project
+updatedAt: "2025-08-10T12:57:14Z"
+languages:
+- name: Go
+  color: "#00ADD8"
+  size: 100.0
+readMeOid: 78591d0
 ---
 # GoWorkoutTracker
 ### Description
-
+---
 A Frontend Masters project resembling the backend of a workout tracker application written in go
 
 ### Arhitecture
-
+---
 The entire application will be running using an app object that is parsed and attributed  during the main function
 
 main.go
