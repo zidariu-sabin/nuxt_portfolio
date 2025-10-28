@@ -1,6 +1,7 @@
 ---
 title: summer-camp
 description: ""
+label: building
 url: https://github.com/zidariu-sabin/summer-camp
 updatedAt: "2025-08-21T14:56:31Z"
 languages:

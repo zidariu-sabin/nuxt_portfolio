@@ -1,15 +1,16 @@
 ---
 title: Go_pomodoro_cli
 description: A Golang pomodoro cli tool built to get a better understanding of go routines
+label: building
 url: https://github.com/zidariu-sabin/Go_pomodoro_cli
 updatedAt: "2025-08-15T13:35:08Z"
 languages:
-- name: Makefile
-  color: "#427819"
-  size: 1.4
 - name: Go
   color: "#00ADD8"
   size: 98.6
+- name: Makefile
+  color: "#427819"
+  size: 1.4
 readMeOid: 1392b31
 ---
 # Go pomodoro cli tool

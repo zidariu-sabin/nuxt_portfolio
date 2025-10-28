@@ -1,6 +1,7 @@
 ---
 title: prison-rpg
 description: ""
+label: building
 url: https://github.com/zidariu-sabin/prison-rpg
 updatedAt: "2025-08-19T07:09:02Z"
 languages:

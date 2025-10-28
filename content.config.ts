@@ -16,6 +16,9 @@ const lannguageSchema = z.object({
 export const projectSchema = z.object({
   title: z.string(),
   description: z.string(),
+  label: z.string().optional(),
+  url: z.string().optional(),
+  updatedAt: z.date().optional(),
   languages: z.array(lannguageSchema),
 })
 

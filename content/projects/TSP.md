@@ -1,18 +1,19 @@
 ---
 title: TSP
 description: ""
+label: building
 url: https://github.com/zidariu-sabin/TSP
 updatedAt: "2024-05-31T21:06:37Z"
 languages:
 - name: C++
   color: "#f34b7d"
   size: 49.2
-- name: CMake
-  color: "#DA3434"
-  size: 15.3
 - name: C
   color: "#555555"
   size: 35.4
+- name: CMake
+  color: "#DA3434"
+  size: 15.3
 readMeOid: 07d71a5
 ---
 # TSP

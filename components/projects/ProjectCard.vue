@@ -8,8 +8,14 @@ import type { Project } from '~/content.config'
 
 </script>
 <template>
-  <div class="border rounded-[10px] p-2 h-[20ch] w-[60ch]">
-    <a :href="project.path">{{ project.title }}</a>
+  <div class="border rounded-[10px] p-2 w-[65ch]">
+    <div class= "flex flex-row justify-between items-center mx-2">
+      <a :href="project.path">{{ project.title }}</a>
+      <div>
+      <Icon name="devicon:github" size="var(--icon-size)" class="cursor-pointer" />
+      <Icon name="heroicons:presentation-chart-line" size="var(--icon-size)" class="cursor-pointer" />
+      </div>
+    </div>
     <p>{{ project.description }}</p>
     <ul class="list-none grid grid-cols-4 gap-2 items-center">
       <li

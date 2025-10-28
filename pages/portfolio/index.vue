@@ -14,7 +14,7 @@ const { data: projects } = await useAsyncData<Project[]|null>('projects', () =>{
 <div class="bg-linear-to-b from-[var(--color-background)] to-slate-50 h-[85vh] px-[20px] flex flex-col self-center w-[65ch]">
     <h1>Projects</h1>
     <div >
-      <ul class="flex flex-col gap-10 ">
+      <ul class="flex flex-col gap-2 ">
         <li v-for="project in projects" :key="project.title" class="list-none">
           <ProjectCard :project/>
         </li>
