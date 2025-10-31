@@ -6,7 +6,7 @@ const route = ref(useRoute())
 onMounted(() => {
   route.value = useRoute()
 })
-const {data: page} = await useAsyncData(route.route, () => {
+const {data: page} = await useAsyncData('projects', () => {
   return queryCollection('projects').path(route.value.path).first()
 })
 

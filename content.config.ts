@@ -1,6 +1,5 @@
 import { defineContentConfig, defineCollection, z } from '@nuxt/content'
 
-
 export const blogSchema = z.object({
   date: z.date(),
   title: z.string(),

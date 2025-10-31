@@ -1,7 +1,7 @@
 ---
-title: Finance_tracker_iteration_0_assig_1
-description: ""
-label: 
+title: PeerPomodoro
+description: "Real-time collaborative Pomodoro timer web platform that enables users—such as teams, study groups, or remote coworkers—to manage focused work sessions together. Increasing need for remote productivity tools that foster accountability, focus, and teamwork in distributed work environments"
+label: planning
 url: https://github.com/zidariu-sabin/Finance_tracker_iteration_0_assig_1
 updatedAt: "2025-06-11T17:02:36Z"
 languages:

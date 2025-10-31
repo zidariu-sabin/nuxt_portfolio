@@ -19,7 +19,7 @@ const tooltipShow = ref(false);
 <template>
   <div class="bg-[#2E6F40] flex place-content-between items-center px-[15px] sticky top-0">
     <span class="text-[2rem] font-[mono] select-none  text-black visited:text-black">
-      <NuxtLink  class="cursor-pointer" to="/">SZ</NuxtLink>
+      <NuxtLink title="HomePage"  class="cursor-pointer" to="/">SZ</NuxtLink>
     </span>
     <!-- <Icon 
      :name="$colorMode.preference === 'dark' ? 'heroicons-solid:sun' : 'heroicons-solid:moon'"
@@ -42,9 +42,9 @@ const tooltipShow = ref(false);
     
     </UIcon>
     </a>
-    <a href="/portfolio">
+    <a href="/projects">
     <UIcon 
-      title="Portfolio"  
+      title="Projects"  
       name="heroicons:command-line-16-solid" 
       class="text-[2rem]">
     
